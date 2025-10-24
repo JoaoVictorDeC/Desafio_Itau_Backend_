@@ -1,0 +1,35 @@
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.csproj.AssemblyReference.cache
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.AssemblyInfoInputs.cache
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.AssemblyInfo.cs
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.csproj.CoreCompileInputs.cache
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\appsettings.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Desafio-Itau-backend C#.staticwebassets.endpoints.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Desafio-Itau-backend C#.exe
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Desafio-Itau-backend C#.deps.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Desafio-Itau-backend C#.runtimeconfig.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Desafio-Itau-backend C#.dll
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Desafio-Itau-backend C#.pdb
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\scopedcss\bundle\Desafio-Itau-backend C#.styles.css
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-.8CF3BFAD.Up2Date
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.dll
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\refint\Desafio-Itau-backend C#.dll
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.pdb
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\Desafio-Itau-backend C#.genruntimeconfig.cache
+C:\Users\joao5\source\repos\Desafio-Itau-backend C#\obj\Debug\net8.0\ref\Desafio-Itau-backend C#.dll
