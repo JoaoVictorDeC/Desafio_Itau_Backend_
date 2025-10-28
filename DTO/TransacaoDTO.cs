@@ -3,7 +3,8 @@
 namespace Desafio_Itau_backend_C_.DTO;
 
         // Para transportar dados de entrada
-        public class TransacaoRequest
+        public class TransacaoDTO
+
         {
             public double Valor { get; set; }
             public DateTimeOffset DataHora { get; set; }

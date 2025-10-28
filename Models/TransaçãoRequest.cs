@@ -2,18 +2,8 @@
 {
     public class TransacaoRequest
     {
-        private decimal _valor;
-        private DateTimeOffset _dataHora;
-
-        public  decimal getValor()
-        {
-            return _valor;
-        }
-
-        public DateTimeOffset getDataHora()
-        {
-            return _dataHora;
-        }
+        public double Valor { get; private set; }
+        public DateTimeOffset HoraInicial { get; private set; }
 
 
 

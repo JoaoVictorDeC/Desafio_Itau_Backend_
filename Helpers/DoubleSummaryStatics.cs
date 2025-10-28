@@ -18,13 +18,14 @@ namespace Desafio_Itau_backend_C_.Helpers
             this._sum += valor;
             if (valor < _min) _min = valor;
             if(valor > _max) _max = valor;
+            this._avg = _sum / _count;
         }
 
         public int Count => _count;
         public double Sum => _sum;
         public double Min => _count > 0 ? _min :0;
         public double Max => _count > 0 ? _max : 0;
-        public double Avg => _count > 0 ? _sum/_count : 0;
+        public double Avg => _count > 0 ? _avg : 0;
 
 
     }
