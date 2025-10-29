@@ -5,9 +5,11 @@
         public double Valor { get; private set; }
         public DateTimeOffset HoraInicial { get; private set; }
 
+        public  TransacaoRequest(double valor, DateTimeOffset horainicial) 
+        {
+            Valor = valor;
+            HoraInicial = horainicial;
+        }
 
-
-    };
-
-    
+    };    
 }

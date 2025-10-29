@@ -14,7 +14,7 @@ namespace Desafio_Itau_backend_C_.Services
             repository = _repository;
         }
 
-        public void CriarTransacao(TransacaoRequest transacao) 
+        public async Task CriarTransacao(TransacaoRequest transacao) 
         {
             if (transacao.Valor == 0) 
             {

@@ -8,7 +8,7 @@ namespace Desafio_Itau_backend_C_.DTO;
         {
             public double Valor { get; set; }
             public DateTimeOffset DataHora { get; set; }
-            public string Descricao { get; set; }
+            
         }
 
         // Para transportar estatísticas de saída
