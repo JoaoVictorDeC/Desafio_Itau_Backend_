@@ -1,6 +1,8 @@
 ﻿using Desafio_Itau_backend_C_.DTO;
 using Desafio_Itau_backend_C_.Helpers;
 using Desafio_Itau_backend_C_.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Any;
 
 namespace Desafio_Itau_backend_C_.Repository
@@ -9,25 +11,33 @@ namespace Desafio_Itau_backend_C_.Repository
     {
         //Criando repositorio em Memória para guardar dados
         private List<TransacaoRequest> _Repository = new List<TransacaoRequest> ();
-
-        public void Add(TransacaoRequest transacao) 
+   
+        public Task CriarTransacao(TransacaoRequest transacao)
         {
-            _Repository.Add(transacao);
+            if (transacao.Valor <= 0)
+                throw new ArgumentException("O valor deve ser maior que zero");
+
+             _Repository.Add (transacao);
+           
+            return Task.CompletedTask; 
         }
+        public List<TransacaoRequest> TodasTransacoes()
+        {
+            return _Repository.ToList();
+        }
+
 
         public void Limpar() 
         {
             _Repository.Clear();
         }
 
-        public List<double> ObterEstasitiscas(DateTimeOffset horaInicial) 
+        public Task<List<TransacaoRequest>> ObterEstatisticas(DateTimeOffset horaInicial)
         {
-            //Filtramos os valores pela data maior ou igual a hora selecionada
-            return _Repository.
-                Where(t => t.HoraInicial >= horaInicial).
-                Select(t => t.Valor).
-                ToList();
+            var filtradas = _Repository.Where(t => t.HoraInicial >= horaInicial).ToList();
+            return  Task.FromResult(filtradas);
         }
+
     }
 
 }

@@ -2,16 +2,17 @@
 using Desafio_Itau_backend_C_.Helpers;
 using Desafio_Itau_backend_C_.Repository;
 using Desafio_Itau_backend_C_.Models;
+using Microsoft.AspNetCore.Mvc.ActionConstraints;
 
 namespace Desafio_Itau_backend_C_.Services
 {
     public class TransacaoService
     {
-        private readonly TransacaoRepository repository;
+        private readonly TransacaoRepository _repository;
 
-        public TransacaoService (TransacaoRepository _repository) 
+        public TransacaoService (TransacaoRepository repository) 
         {
-            repository = _repository;
+            _repository = repository;
         }
 
         public async Task CriarTransacao(TransacaoRequest transacao) 
@@ -21,33 +22,37 @@ namespace Desafio_Itau_backend_C_.Services
                 throw new ArgumentException("O valor deve ser maior do que zero");
             }
 
-            repository.Add(transacao);
+           await _repository.CriarTransacao(transacao);
+        }
+        
+        public List<TransacaoRequest> ObterTransacoes()
+        {
+            return _repository.TodasTransacoes();
         }
 
         public void LimparService() 
         {
 
-            if (repository == null)
+            if (_repository == null)
                 throw new InvalidOperationException("Repositório não foi inicializado.");
 
-            repository.Limpar();
+            _repository.Limpar();
 
         }
-        public EstatisticaDTO ObterEstatisticas(DateTimeOffset horaInicial) 
+        public async Task<EstatisticaDTO> ObterEstatisticas(DateTimeOffset horaInicial) 
         {
-            var valores = repository.ObterEstasitiscas(horaInicial);
+            var valores = await _repository.ObterEstatisticas(horaInicial);
             if (!valores.Any())
             {
                 return new EstatisticaDTO();
             }
 
             var estatistica = new DoubleSummaryStatics();
-            foreach (var valor in valores) 
+            foreach (var t in valores) 
             {
-                estatistica.Add(valor);
+                estatistica.Add(t.Valor);
             }
-
-
+            
             return new EstatisticaDTO(estatistica);
         }
     }
